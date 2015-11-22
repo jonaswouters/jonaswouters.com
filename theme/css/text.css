@@ -1,0 +1,55 @@
+/**
+ * Text formatting
+ */
+
+@import url(https://fonts.googleapis.com/css?family=Lato:300,700,300italic);
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	line-height: 1.5;
+	color: #333
+}
+
+a {
+	text-decoration: none;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: inherit;
+}
+h1 { font-size: 3.0em; font-weight: 300; }
+h2 { font-size: 1.8em; font-weight: 300; }
+h3 { font-size: 1.4em; font-weight: 300; }
+h4 { font-size: 1.3em; font-weight: 300; }
+h5 { font-size: 1.2em; font-weight: 300; }
+h6 { font-size: 1.1em; font-weight: 300; }
+ul {
+	padding-left: 1.2em;
+}
+li > ul {
+	margin: 0;
+}
+#links {
+	text-align: center;
+}
+#links li {
+	display: inline;
+	padding: 10px;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.3em;
+}
+
+a {
+	color: #3399FF;
+}
+
+a:hover {
+	color: #0066CC;
+}
+
+h1 a {
+	margin-top: 20% ;
+	display: block;
+	text-align: center;
+	color: #3D3D3D;
+}

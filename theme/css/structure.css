@@ -1,0 +1,11 @@
+main {
+    display: block;
+    margin: 0 auto;
+    max-width: 750px;
+}
+
+img {
+    position: relative;
+    left: -10%;
+    width: 120%;
+}

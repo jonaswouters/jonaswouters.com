@@ -1,0 +1,12 @@
+baseurl: "http://jonaswouters.be/"
+languageCode: "en-us"
+title: "Jonas Wouters"
+MetaDataFormat: "yaml"
+staticdir: "media"
+layoutdir: "theme"
+params:
+  name: "Jonas Wouters"
+  avatar: "http://www.gravatar.com/avatar/030f01a17257e1b5ecde30246c681d99.jpg?s=512"
+  bio: "Freelance developer @ [Just Works](http://justworks.be). Father, geek, gamer. [@jonaswouters](http://twitter.com/jonaswouters). "
+  aboutAuthor: "Freelance developer, father, geek, gamer."
+  twitter: "jonaswouters"
