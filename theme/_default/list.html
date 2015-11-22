@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	{{ partial "head.html" . }}
+		<body>
+		{{ partial "header.html" . }}
+		{{ partial "nav.html" . }}
+		<main>
+			<article>
+				<header>
+					<h2><a>{{ .Title }}</a></h2>
+				</header>
+				<ul>
+					{{ range .Data.Pages }}
+					<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+					{{ end }}
+				</ul>
+			</article>
+		</main>
+	</body>
+</html>
+

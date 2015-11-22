@@ -9,3 +9,26 @@ img {
     left: -10%;
     width: 120%;
 }
+
+ul {
+    padding-left: 1.2em;
+}
+li > ul {
+    margin: 0;
+}
+#links {
+    text-align: center;
+}
+#links li {
+    display: inline;
+    padding: 10px;
+}
+
+h1 a, h1 a:hover {
+    display: block;
+    text-align: center;
+}
+
+.home h1 {
+    margin-top: 20% ;
+}
