@@ -19,9 +19,9 @@ var HTML_DEST = 'public/html/';
  * Combine and minify CSS
  */
 gulp.task('css', function() {
-  var jsFiles = ['node_modules/normalize.css/normalize.css', 'theme/css/text.css', 'theme/css/structure.css'];
+  var cssFiles = ['node_modules/normalize.css/normalize.css', 'theme/css/text.css', 'theme/css/structure.css'];
 
-  return gulp.src(jsFiles)
+  return gulp.src(cssFiles)
     .pipe(autoprefixer('last 1 version'))
     .pipe(concat('style.min.css'))
     .pipe(minifyCss())
