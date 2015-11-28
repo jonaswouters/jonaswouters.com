@@ -3,20 +3,17 @@
 	{{ partial "head.html" . }}
 	<body>
 		<div class="container">
-			{{ partial "header.html" . }}
-			{{ partial "nav.html" . }}
+
 			<main>
 				<header>
-					<h2>{{ .Title }}</h2>
+					<h1>{{ .Title }}</h1>
 				</header>
 				<article>
 					<div class="content">
 						{{ .Content }}
 					</div>
+					{{ partial "articlefooter.html" . }}
 				</article>
-				<footer>
-					<p><span id="footer-copyright">{{ .Params.copyright }}</span><span id="footer-license">{{ .Params.license }}</span></p>
-				</footer>
 			</main>
 			{{ partial "footer.html" . }}
 		</div>

@@ -9,3 +9,5 @@ params:
   avatar: "http://www.gravatar.com/avatar/030f01a17257e1b5ecde30246c681d99.jpg?s=512"
   bio: "Freelance developer @ [Just Works](http://justworks.be). Father, geek, gamer. [@jonaswouters](http://twitter.com/jonaswouters). "
   twitter: "jonaswouters"
+  copyright: "2015 Jonas Wouters"
+  license: "Test"
