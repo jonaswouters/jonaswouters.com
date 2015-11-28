@@ -1,11 +1,9 @@
-<ul>
-	{{ range . }}
-	<li>
-		<a href="{{.URL}}">{{ .Name }}</a>
-		{{ if .HasChildren }}
-		{{ partial "menu.html" .Children }}
-		{{ end }}
-	</li>
-	{{end}}
-</ul>
-
+<menu>
+	<ul>
+		<li><a href="/post">Posts</a></li>
+		<li><a href="/about">About</a></li>
+		<li><a href="http://twitter.com/jonaswouters" target="blank">Twitter</a></li>
+		<li><a href="http://github.com/jonaswouters" target="blank">Github</a></li>
+		<li><a href="http://linkedin.com/in/jonaswouters" target="blank">LinkedIn</a></li>
+	</ul>
+</menu>

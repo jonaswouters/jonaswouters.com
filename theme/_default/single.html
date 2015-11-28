@@ -2,22 +2,23 @@
 <html>
 	{{ partial "head.html" . }}
 	<body>
-		{{ partial "header.html" . }}
-		{{ partial "nav.html" . }}
-		<main>
-			<header>
-				<h2>{{ .Title }}</h2>
-			</header>
-			<article>
-				<div class="content">
-					{{ .Content }}
-				</div>
-
-			</article>
-			<footer>
-				<p><span id="footer-copyright">{{ .Params.copyright }}</span><span id="footer-license">{{ .Params.license }}</span></p>
-			</footer>
-		</main>
-		{{ partial "footer.html" . }}
+		<div class="container">
+			{{ partial "header.html" . }}
+			{{ partial "nav.html" . }}
+			<main>
+				<header>
+					<h2>{{ .Title }}</h2>
+				</header>
+				<article>
+					<div class="content">
+						{{ .Content }}
+					</div>
+				</article>
+				<footer>
+					<p><span id="footer-copyright">{{ .Params.copyright }}</span><span id="footer-license">{{ .Params.license }}</span></p>
+				</footer>
+			</main>
+			{{ partial "footer.html" . }}
+		</div>
 	</body>
 </html>

@@ -1,4 +1,4 @@
-main {
+.container {
     display: block;
     margin: 0 auto;
     max-width: 750px;
@@ -11,22 +11,30 @@ img {
 }
 
 ul {
-    padding-left: 1.2em;
+    padding-left: 0;
 }
 li > ul {
     margin: 0;
 }
-#links {
+menu {
+    padding: 0;
+    margin: 0;
+}
+
+.home menu, .home h1 {
     text-align: center;
 }
-#links li {
+menu li {
     display: inline;
-    padding: 10px;
+    padding: 0 15px 0 0;
 }
 
 h1 a, h1 a:hover {
     display: block;
-    text-align: center;
+}
+
+h1 {
+
 }
 
 .home h1 {

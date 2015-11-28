@@ -23,10 +23,14 @@ h3 { font-size: 1.4em; font-weight: 300; }
 h4 { font-size: 1.3em; font-weight: 300; }
 h5 { font-size: 1.2em; font-weight: 300; }
 h6 { font-size: 1.1em; font-weight: 300; }
-.home h1 { font-size: 4.5em; font-weight: 600; margin-bottom: 0px; }
+.home h1 { font-size: 4.5em; font-weight: 600;}
 
-#links li {
-font-size: 1.5em;
+menu li {
+	font-size: 1.0em;
+}
+
+.home menu li {
+	font-size: 1.5em;
 }
 
 a {
