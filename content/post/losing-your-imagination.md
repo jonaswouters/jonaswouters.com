@@ -15,13 +15,13 @@ Writing stories in English is something I’ve never done before. I’ve got the
 
 Even though I’m not very confident about it, I feel like I should at least write more often to spark the little imagination I have left and put it to good use. Imagination is such a wonderful thing to have and provides you with happiness, motivation and creativity. Not only does it help to write, but also to design, draw and create software.
 
-### Off to be the Wizard
+## Off to be the Wizard
 
 What better way to spark your imagination than reading. I've only recently picked it up again thanks to my Kindle and a fantastic book. I've had a Kindle for years, but for some reason I never really used it. I've got rid of it and got myself the newer version with the lighted screen that is easy on the eyes.
 
 I've tried reading the [Song of Ice and Fire][thrones] books, but I know what is going to happen because I watched the series and it kind of ruins the books for me. I was about to give up on finding a good book to read until I found [Off to be the Wizard][wizard] and damn I love this book! It's right down my alley with fantasy, programming, humor and unlimited possibilities.
 
-### What are we going to do?
+## What are we going to do?
 
 I'm going to read more books, watch less TV and write more blogposts.
 I'll revisit this post in a year or so to see if I've done any of those things.

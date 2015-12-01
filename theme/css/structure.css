@@ -4,7 +4,7 @@
     max-width: 650px;
 }
 
-img {
+article p > img {
     position: relative;
     left: -10%;
     width: 120%;
@@ -43,11 +43,33 @@ h1 {
 
 /* Article footer */
 article footer {
+    position: relative;
+    left: -10%;
+    width: 100%;
     border-top: 1px solid #EEE;
     border-bottom: 1px solid #EEE;
-    padding-top: 40px;
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
     margin-bottom: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     margin-top: 40px;
     color: #444;
+}
+
+article footer.about img {
+    float: left;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid #EEE;
+    margin-right: 30px;
+}
+
+article footer h2 {
+    display: inline;
+}
+
+article footer p {
+    margin: 0px;
+    margin-top: 5px;
 }
