@@ -39,6 +39,14 @@ gulp.task('html', function() {
 });
 
 /*
+ * Move images to public dir
+ */
+gulp.task('images', function() {
+    return gulp.src('images/**/*')
+        .pipe(gulp.dest('public/images/'));
+});
+
+/*
  * Watch for changes
  */
 gulp.task('watch', function () {
@@ -123,24 +131,17 @@ gulp.task('aws-publish', ['build'], function () {
  */
 gulp.task('default', [], function () {
   gulp.start('css');
+  gulp.start('images');
 
   gulp.start('hugo');
   gulp.start('watch');
-
-});
-
-gulp.task('default', [], function () {
-  gulp.start('css');
-
-  gulp.start('hugo');
-  gulp.start('watch');
-
 
 });
 
 gulp.task('build', function (callback) {
   runSequence(
     'css',
+    'images',
     'hugo',
     'html',
     function (error) {
