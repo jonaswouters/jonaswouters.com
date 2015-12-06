@@ -1,4 +1,12 @@
 <nav>
-	{{ partial "menu.html" .Site.Menus.main }}
+	<menu>
+		<ul>
+			{{ if not .IsHome }}<li><a href="/">Home</a></li>{{ end }}
+			<li><a href="/about">About</a></li>
+			<!--<li><a href="http://twitter.com/jonaswouters" target="blank">Twitter</a></li>
+            <li><a href="http://github.com/jonaswouters" target="blank">Github</a></li>
+            <li><a href="http://linkedin.com/in/jonaswouters" target="blank">LinkedIn</a></li>-->
+		</ul>
+	</menu>
 </nav>
 

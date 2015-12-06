@@ -2,17 +2,17 @@
 <html>
 	{{ partial "head.html" . }}
 	<body>
+		{{ partial "nav.html" . }}
 		<div class="container">
-
 			<main>
-				<header>
-					<h1>{{ .Title }}</h1>
-				</header>
 				<article>
+					<header>
+						<h1>{{ .Title }}</h1>
+					</header>
 					<div class="content">
 						{{ .Content }}
 					</div>
-					{{ partial "articlefooter.html" . }}
+					{{ partial "about.html" . }}
 				</article>
 			</main>
 			{{ partial "footer.html" . }}

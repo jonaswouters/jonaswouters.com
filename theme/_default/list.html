@@ -2,16 +2,25 @@
 <html>
 	{{ partial "head.html" . }}
 	<body>
+		{{ partial "nav.html" . }}
 		<div class="container">
-			{{ partial "header.html" . }}
-			{{ partial "nav.html" . }}
 			<main class="list">
 				<header>
 					<h1><a>{{ .Title }}</a></h1>
 				</header>
+
 				<ul>
 					{{ range .Data.Pages }}
-					<li><h3>{{ .Date.Format "Jan 02, 2006" }} <a href="{{ .Permalink }}">{{ .Title }}</a></h3></li>
+					<li>
+						<h3><a href="{{ .Permalink }}">{{ .Title }}</a> <span class="date">{{ .Date.Format "Jan 02, 2006" }}</span></h3>
+						<ul id="tags">
+							{{ range .Params.tags }}
+							<li><a href="tags/{{ . | urlize }}">{{ . }}</a> </li>
+							{{ end }}
+						</ul>
+
+						<p>{{ .Description }} </p>
+					</li>
 					{{ end }}
 				</ul>
 			</main>

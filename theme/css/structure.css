@@ -2,6 +2,7 @@
     display: block;
     margin: 0 auto;
     max-width: 650px;
+    clear: both;
 }
 
 article p > img {
@@ -19,14 +20,14 @@ li > ul {
 menu {
     padding: 0;
     margin: 0;
+    float: right;
+    margin-top: 10px;
+
 }
 
-.home menu, .home h1 {
-    text-align: center;
-}
 menu li {
     display: inline;
-    padding: 0 15px 0 0;
+    padding: 0 25px 0 0;
 }
 
 h1 a, h1 a:hover {
@@ -42,7 +43,7 @@ h1 {
 }
 
 /* Article footer */
-article footer {
+div.about {
     position: relative;
     left: -10%;
     width: 100%;
@@ -57,7 +58,7 @@ article footer {
     color: #444;
 }
 
-article footer.about img {
+div.about img {
     float: left;
     width: 100px;
     border-radius: 50%;
@@ -65,11 +66,27 @@ article footer.about img {
     margin-right: 30px;
 }
 
-article footer h2 {
+div.about h2 {
     display: inline;
 }
 
-article footer p {
+div.about p {
     margin: 0px;
     margin-top: 5px;
+}
+
+/* Lists */
+.list ul li h3 {
+    margin-bottom: 0px;
+}
+.list ul li p {
+    padding-bottom: 20px;
+}
+.list ul {
+    list-style-type: none;
+}
+.list ul li h3 span.date {
+    padding-left: 20px;
+    font-size: 0.7em;
+    color: #C7C7C7;
 }
