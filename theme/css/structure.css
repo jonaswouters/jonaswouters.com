@@ -3,6 +3,8 @@
     margin: 0 auto;
     max-width: 650px;
     clear: both;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 article p > img {
@@ -85,8 +87,46 @@ div.about p {
 .list ul {
     list-style-type: none;
 }
-.list ul li h3 span.date {
+.list ul li span.date {
     padding-left: 20px;
-    font-size: 0.7em;
-    color: #C7C7C7;
+    white-space: nowrap;
+}
+
+.list ul li h3 {
+    display: inline;
+}
+
+.list ul li ul#tags {
+    display: inline;
+}
+
+/* Tags */
+ul#tags li {
+    display: inline-block;
+    border: 1px solid #E6E6E6;
+    background-color: #F2F2F2;
+    margin-left: 5px;
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+    position: relative;
+    top: -3px;
+}
+
+/* Media queries */
+@media screen and (max-width: 740px) {
+    article p > img {
+        left: -15px;
+        right: -15px;
+        width: calc(100% + 30px);
+    }
+
+    div.about {
+        left: -15px;
+        right: -15px;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }

@@ -43,3 +43,35 @@ h1 a, h1 a:hover {
     color: #3D3D3D;
 }
 
+.list ul li span.date {
+    font-size: 1.0em;
+    color: #C7C7C7;
+}
+
+ul#tags li {
+    font-size: 0.5em;
+}
+
+/* Media queries */
+@media screen and (max-width: 740px) {
+
+    body {
+        font-size: 1.1em;
+    }
+    h1 { font-size: 2.4em; }
+    h2 { font-size: 1.7em; }
+    h3 { font-size: 1.4em; }
+    h4 { font-size: 1.3em; }
+    h5 { font-size: 1.2em; }
+    h6 { font-size: 1.1em; }
+
+    .about h2 { font-size: 1.5em; }
+
+    .list ul li span.date {
+        font-size: 0.9em;
+    }
+
+    ul#tags li {
+        font-size: 0.5em;
+    }
+}
