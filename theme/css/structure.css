@@ -125,6 +125,8 @@ ul#tags li {
         left: -15px;
         right: -15px;
         width: calc(100% + 30px);
+        float: left;
+        margin-bottom: 10px;
     }
 
     div.about {
