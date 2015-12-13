@@ -43,7 +43,7 @@ h1 a, h1 a:hover {
     color: #3D3D3D;
 }
 
-.list ul li span.date {
+span.date {
     font-size: 1.0em;
     color: #C7C7C7;
 }

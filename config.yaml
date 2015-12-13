@@ -15,4 +15,3 @@ params:
   license: "Test"
 taxonomies:
   tag: "tags"
-  category: "categories"

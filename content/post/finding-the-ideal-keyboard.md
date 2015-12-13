@@ -1,10 +1,7 @@
 ---
-layout: post
-slug: /2012/11/finding-the-ideal-keyboard-part-1
-title: "Finding the ideal Keyboard"
-description: "Keyboards are an important part of your daily life as a professional developer. Get the best one for you!"
 date: 2012-11-02T11:25:01+01:00
-categories: ergonomics
+title: "Finding the ideal Keyboard"
+description: "Keyboards are an important part of your daily life as a professional developer. Get the best one you can get that fits your needs!"
 tags: [ergonomics, keyboard]
 header_image: "/images/whitekeyboard.jpg"
 header_image_alt: "Essel's white keyboard"

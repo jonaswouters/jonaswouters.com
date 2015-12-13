@@ -8,6 +8,7 @@
 				<article>
 					<header>
 						<h1>{{ .Title }}</h1>
+						<span class="date">{{ .Date.Format "Jan 02, 2006" }}</span>
 					</header>
 					<div class="content">
 						{{ .Content }}

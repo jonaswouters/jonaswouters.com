@@ -1,8 +1,8 @@
 ---
 date: "2014-08-19T22:50:49+02:00"
-slug: /2014/08/losing-your-imagination
 title: "Losing your imagination"
 description: "Not enough imagination to come up with a description for this post"
+tags: [creativity, book]
 header_image: "/images/imagination.jpg"
 header_image_alt: "Child imagining"
 ---

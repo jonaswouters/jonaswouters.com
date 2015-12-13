@@ -77,6 +77,11 @@ div.about p {
     margin-top: 5px;
 }
 
+/* Article */
+article header h1 {
+    display: inline;
+}
+
 /* Lists */
 .list ul li h3 {
     margin-bottom: 0px;
@@ -87,7 +92,7 @@ div.about p {
 .list ul {
     list-style-type: none;
 }
-.list ul li span.date {
+span.date {
     padding-left: 20px;
     white-space: nowrap;
 }

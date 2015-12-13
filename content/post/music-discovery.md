@@ -2,6 +2,7 @@
 date: "2015-09-16T09:53:53+02:00"
 title: "Music discovery"
 description: "I've recently discovered the Nerdcore genre by coincidence. If only one of the major players were able to suggest music that I would actually like."
+tags: [music, software]
 header_image: "/images/nerdcorex3.png"
 header_image_alt: "Nerdcore albums"
 ---

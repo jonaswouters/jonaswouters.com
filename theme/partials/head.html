@@ -1,7 +1,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-	<title> {{ .Title }} &middot; {{ .Site.Title }} </title>
+	<title>{{ if not .IsHome }}{{ .Title }} &middot; {{ end }}{{ .Site.Title }} </title>
 	<!-- Stylesheets -->
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
