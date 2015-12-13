@@ -52,11 +52,15 @@ ul#tags li {
     font-size: 0.5em;
 }
 
+article p {
+    text-align: justify;
+}
+
 /* Media queries */
 @media screen and (max-width: 740px) {
 
     body {
-        font-size: 1.1em;
+        font-size: 1.0em;
     }
     h1 { font-size: 2.4em; }
     h2 { font-size: 1.7em; }
