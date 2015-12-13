@@ -12,6 +12,7 @@ var runSequence = require('run-sequence');
 var awsPublish = require('gulp-awspublish');
 var awsPublishRouter = require('gulp-awspublish-router');
 var imageResize = require('gulp-image-resize');
+var fs = require('fs');
 
 var CSS_DEST = 'public/css/';
 var HTML_DEST = 'public/html/';
@@ -88,9 +89,9 @@ gulp.task('hugo', function() {
  */
 gulp.task('aws-publish', ['build'], function () {
 
-    var publisher = awsPublish.create(JSON.parse(fs.readFileSync(process.env.HOME + '/.aws/'  + process.env.site + '.json')));
+    var publisher = awsPublish.create(JSON.parse(fs.readFileSync(process.env.HOME + '/.aws/jonaswouters.com.json')));
 
-    return gulp.src('./dist/**')
+    return gulp.src('./public/**')
         .pipe(awsPublishRouter({
             cache: {
                 // cache for 5 minutes by default
@@ -127,10 +128,10 @@ gulp.task('aws-publish', ['build'], function () {
                 "^.+$": "$&"
             }
         }))
-        .pipe(parallelize(publisher.publish(), 10))
+        .pipe(publisher.publish())
         .pipe(publisher.sync())
         .pipe(publisher.cache())
-        .pipe(awspublish.reporter({
+        .pipe(awsPublish.reporter({
             states: ['create', 'update', 'delete']
         }));
 });
