@@ -3,13 +3,13 @@ date: 2012-11-02T11:25:01+01:00
 title: "Finding the ideal Keyboard"
 description: "Keyboards are an important part of your daily life as a professional developer. Get the best one you can get that fits your needs!"
 tags: [ergonomics, keyboard]
-header_image: "/images/whitekeyboard.jpg"
+header_image: "/images/whitekeyboard@2x.jpg"
 header_image_alt: "Essel's white keyboard"
 ---
 
 While learning the Colemak keyboard layout, I got the idea that I would prefer to have the text on my keyboard match the keyboard layout I type in. This would come in handy for those moments I have only one free hand and actually have to look at the keyboard to enter some text. Therefor, I started searching the internet for alternative keyboard layouts for my Apple gear. Thinking there would exist something like an Apple wireless keyboard with the Dvorak layout, or even the Colemak layout, I quickly got disappointed by the non-existence of such brilliant combination of nice hardware and ergonomics. Projects like alternative keycaps do not exist, only rubber covers, which destroy the whole feel of the keyboard. I did find one interesting project. Essel's white keyboard blanks out the keys and I would no longer be limited in whatever layout I wish to use. This is on my todo-list for trying out.
 
-![Essel's white keyboard](/images/whitekeyboard.jpg)
+![Essel's white keyboard](/images/whitekeyboard@2x.jpg)
 
 ## Changing the keys on the Apple keyboard
 

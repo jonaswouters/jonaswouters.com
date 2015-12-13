@@ -11,6 +11,7 @@ var exec = require('child_process').exec;
 var runSequence = require('run-sequence');
 var awsPublish = require('gulp-awspublish');
 var awsPublishRouter = require('gulp-awspublish-router');
+var imageResize = require('gulp-image-resize');
 
 var CSS_DEST = 'public/css/';
 var HTML_DEST = 'public/html/';
@@ -42,7 +43,15 @@ gulp.task('html', function() {
  * Move images to public dir
  */
 gulp.task('images', function() {
-    return gulp.src('images/**/*')
+    // Full resolution
+    gulp.src('images/**/*')
+        .pipe(imageResize({ width : 1560 }))
+        .pipe(rename(function (path) { path.basename += "@2x"; }))
+        .pipe(gulp.dest('public/images/'));
+
+    // No retina full resolution
+    gulp.src('images/**/*')
+        .pipe(imageResize({ width : 780 }))
         .pipe(gulp.dest('public/images/'));
 });
 

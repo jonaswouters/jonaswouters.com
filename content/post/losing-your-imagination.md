@@ -3,7 +3,7 @@ date: "2014-08-19T22:50:49+02:00"
 title: "Losing your imagination"
 description: "Not enough imagination to come up with a description for this post"
 tags: [creativity, book]
-header_image: "/images/imagination.jpg"
+header_image: "/images/imagination@2x.jpg"
 header_image_alt: "Child imagining"
 ---
 

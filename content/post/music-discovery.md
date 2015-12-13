@@ -3,13 +3,13 @@ date: "2015-09-16T09:53:53+02:00"
 title: "Music discovery"
 description: "I've recently discovered the Nerdcore genre by coincidence. If only one of the major players were able to suggest music that I would actually like."
 tags: [music, software]
-header_image: "/images/nerdcorex3.png"
+header_image: "/images/nerdcore@2x.png"
 header_image_alt: "Nerdcore albums"
 ---
 
 Last week I discovered the [Nerdcore][nerdcore] genre of music thanks to the [This developers life - Faith][1] podcast. I never really liked the hip-hop genre, but for some reason I really like the sub-genre of it. Perhaps because the lyrics relate to my life as a nerd/geek. I'm not really a big music listener and have been struggling to find anything that I would even like to listen to. It has changed a lot over the years and even changes on a weekly basis.
 
-![Nerdcore covers](/images/nerdcorex3.png)
+![Nerdcore covers](/images/nerdcore@2x.png)
 
 None of the services I've used recommended this genre to me. The things they recommends are usually songs that have a close relation to the things I've already listened to or is popular in the genres I was able to select when registering for the service. These genres are very broad and therefor worthless for music recommendations.
 
