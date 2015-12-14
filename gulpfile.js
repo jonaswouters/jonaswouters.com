@@ -132,7 +132,7 @@ gulp.task('aws-publish', ['build'], function () {
             }
         }))
         .pipe(publisher.publish())
-        .pipe(publisher.sync())
+        //.pipe(publisher.sync()) No sync for now
         .pipe(publisher.cache())
         .pipe(awsPublish.reporter({
             states: ['create', 'update', 'delete']
