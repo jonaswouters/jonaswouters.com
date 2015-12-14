@@ -52,7 +52,7 @@ ul#tags li {
     font-size: 0.5em;
 }
 
-article p {
+article p, .list ul li p {
     text-align: justify;
 }
 
