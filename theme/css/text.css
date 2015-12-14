@@ -57,7 +57,7 @@ article p {
 }
 
 /* Media queries */
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 780px) {
 
     body {
         font-size: 1.0em;

@@ -3,7 +3,7 @@ date: "2014-08-19T22:50:49+02:00"
 title: "Losing your imagination"
 description: "Not enough imagination to come up with a description for this post"
 tags: [creativity, book]
-header_image: "/images/imagination@2x.jpg"
+header_image: "/images/post/imagination.jpg"
 header_image_alt: "Child imagining"
 ---
 
@@ -14,6 +14,8 @@ It has been years since I wrote a story. I feel like my imagination is escaping 
 Writing stories in English is something I’ve never done before. I’ve got the feeling the stories are not the same translated. Besides, I’m not very confident that I’m a decent writer at all, let alone in the English language.
 
 Even though I’m not very confident about it, I feel like I should at least write more often to spark the little imagination I have left and put it to good use. Imagination is such a wonderful thing to have and provides you with happiness, motivation and creativity. Not only does it help to write, but also to design, draw and create software.
+
+![Child imagining](/images/post/imagination.jpg)
 
 ## Off to be the Wizard
 

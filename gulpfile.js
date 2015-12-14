@@ -44,16 +44,19 @@ gulp.task('html', function() {
  * Move images to public dir
  */
 gulp.task('images', function() {
-    // Full resolution
-    gulp.src('images/**/*')
-        .pipe(imageResize({ width : 1560 }))
-        .pipe(rename(function (path) { path.basename += "@2x"; }))
+    gulp.src('images/*')
         .pipe(gulp.dest('public/images/'));
 
-    // No retina full resolution
-    gulp.src('images/**/*')
+    // Post: Full resolution
+    gulp.src('images/post/**/*')
+        .pipe(imageResize({ width : 1560 }))
+        .pipe(gulp.dest('public/images/post/'));
+
+    // Post: No retina full resolution
+    gulp.src('images/post/**/*')
         .pipe(imageResize({ width : 780 }))
-        .pipe(gulp.dest('public/images/'));
+        .pipe(rename(function (path) { path.basename += "@1x"; }))
+        .pipe(gulp.dest('public/images/post/'));
 });
 
 /*

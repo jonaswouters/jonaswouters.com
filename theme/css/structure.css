@@ -120,7 +120,7 @@ ul#tags li {
 }
 
 /* Media queries */
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 780px) {
     article p > img {
         left: -15px;
         right: -15px;
