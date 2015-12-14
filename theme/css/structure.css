@@ -121,18 +121,44 @@ ul#tags li {
 
 /* Media queries */
 @media screen and (max-width: 780px) {
+    .container {
+        max-width: 100%;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
     article p > img {
-        left: -15px;
-        right: -15px;
-        width: calc(100% + 30px);
+        left: -25px;
+        right: -25px;
+        width: calc(100% + 50px);
         float: left;
         margin-bottom: 10px;
     }
 
     div.about {
+        left: -25px;
+        right: -25px;
+        width: 100%;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    article p > img {
         left: -15px;
         right: -15px;
-        width: 100%;
+        width: calc(100% + 30px);
+    }
+
+    div.about {
+        left: -15px;
+        right: -15px;
         padding-left: 15px;
         padding-right: 15px;
     }
