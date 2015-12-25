@@ -26,7 +26,7 @@ I've tried reading the [Song of Ice and Fire][thrones] books, but I know what is
 ## What are we going to do?
 
 I'm going to read more books, watch less TV and write more blogposts.
-I'll revisit this post in a year or so to see if I've done any of those things.
+I'll [revisit this post in a year]({{< relref "post/my-year-in-review-2015.md" >}}) or so to see if I've done any of those things.
 
 [thrones]: https://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire
 [wizard]: http://www.amazon.com/gp/product/B00EF8Z32I/ref=series_rw_dp_sw
