@@ -6,6 +6,7 @@ tags: [hardware]
 header_image: "/images/post/ipadpro.png"
 header_image_alt: "iPad Pro"
 ---
+
 For the first time in my life I watched a Microsoft event live. I did not expect much from it except for the surface 4, which I've been waiting for. It was an amazing event. I even got excited about their lumia phones and I even consider buying it over the iPhone 6s.
 
 Then they announced the Surface Book. “I want one” was the first thought that popped into my head. Later I realised that the screen only holds a charge for 2 hours, that was kind of a disappointment. The Surface Pro 4 is probably all I need, but I won’t be able to use it for games :(.

@@ -4,6 +4,7 @@ Title: "Giving up on Colemak"
 description: "I love the layout, but hardware vendors and convenience is giving me no choice"
 tags: [ergonomics, keyboard, hardware]
 ---
+
 I don't really feel like giving up on the Colemak layout, but it seems like the easy way out of all the typing errors I keep making by switching devices. 
 
 In an ideal world, we would have alternative keyboard layouts on devices like the MacBook Pro, Surface Pro and iOS devices. They keep having these standard layouts like Qwerty US, Qwerty International and Azerty that are not even that good. What is worse is the way the keys are placed, in an alternating pattern that doesn't make sense, it's not even symmetrical.  Give me a matrix keyboard over this any day!

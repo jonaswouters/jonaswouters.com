@@ -6,6 +6,7 @@ header_image: /images/2015review.jpg
 header_image_alt: "Lousy 2015 review image from a stock site."
 title: My year in review
 ---
+
 Last year I wrote about [Losing your imagination]({{< relref "post/losing-your-imagination.md" >}}) and what I was going to do about it. I've actually done most of those things except maybe writing more blogposts. I did read a lot compared to the many years before that and I'm eager to share my year in books from Goodreads at the bottom of this post.
 
 Thanks to [Caverns and Creatures][cavernsandcreatures], [Magic 2.0][magic20], [Jurassic Park][jurassicpark], [Ready Player One][readyplayerone] and maybe even [Harry Potter][harrypotter] I'm reading a lot more and loving it. It is still hard to find books that really interest me, but I can still fall back on the classics if I've got nothing left to read.
