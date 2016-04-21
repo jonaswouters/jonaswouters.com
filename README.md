@@ -8,9 +8,9 @@ You'll need at least hugo 0.15 to build this site
 
 ## Commands
 
-'''
+```
 npm install
 gulp build
 gulp aws-deploy
-'''
+```
 
